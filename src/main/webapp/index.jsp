@@ -58,6 +58,7 @@
         alert('当前浏览器不支持WebSocket..')
     }
 
+
     //将消息显示在网页上
     function setMessageInnerHTML(innerHTML) {
         document.getElementById('showMessage').innerHTML +=innerHTML+'</br>';

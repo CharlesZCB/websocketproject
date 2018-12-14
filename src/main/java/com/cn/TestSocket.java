@@ -35,6 +35,7 @@ public class TestSocket {
     }
 
     @OnOpen
+
     public void onopen(Session session){
         this.session=session;
         websocket.add(this);
